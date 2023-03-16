@@ -30,9 +30,10 @@ Dell服务器 iDRAC(IPMI) 如何连接管理服务器
 CentOS 8 用户
 1.安装IPMI
 安装IPMI工具：
-
+'''
 yum install epel-release -y
 yum install ipmitool -y
+'''
 1
 2
 2.查看状态
