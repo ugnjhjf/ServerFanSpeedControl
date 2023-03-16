@@ -11,6 +11,7 @@ iDRAC版本：7
 iDRAC 7
 1.进入System Setup界面
 开机的时候猛戳 F2 ,进入System Setup界面
+!(https://img-blog.csdnimg.cn/20210417133901664.png)
 2.进入iDRAC Settings
 3.设置 IPMI 为 enabled
 选择Network后往下拉，设置 IPMI 为 enabled
