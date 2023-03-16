@@ -1,6 +1,8 @@
 # ServerFanSpeedControl  
 1U,2U机架式服务器风扇调速  
 
+English Version Please Refer README_EN.md 
+==================================================================
 $\color{#FF3030}{自行承担使用风险！！！}$  
 
 机型和iDRAC版本  
