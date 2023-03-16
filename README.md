@@ -13,15 +13,18 @@ iDRAC 7
 开机的时候猛戳 F2 ,进入System Setup界面  
 ![System Setup](https://img-blog.csdnimg.cn/20210417133901664.png)  
 2.进入iDRAC Settings  
+![iDRAC Settings](https://img-blog.csdnimg.cn/20210417134254886.png)
 3.设置 IPMI 为 enabled  
+![IPMI](https://user-images.githubusercontent.com/128015241/225513933-2f728997-fc7c-417c-9d30-e5df5ad3cc61.png)
 选择Network后往下拉，设置 IPMI 为 enabled  
-
+![Network](https://user-images.githubusercontent.com/128015241/225514012-3003977c-2961-4683-8d8c-8c615b6ed679.png)
 
 
 二、风扇调速
 ==================================================================
 CentOS 8 用户
 1.安装IPMI  
+
 
 ```
 yum install epel-release -y 
@@ -30,8 +33,8 @@ yum install ipmitool -y
 
 2.查看状态  
 查看是否安装完毕：  
-```rpm -qa | grep ipmi```
-
+```rpm -qa | grep ipmi```  
+![IPMI](https://img-blog.csdnimg.cn/20210417135438275.png)
 
 3.进行风扇调速  
 3.1 启用手动调速  
